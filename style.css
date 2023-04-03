@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 15px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 2.0rem;
+    border: 5px solid rgb(50, 161, 80);
+    border-radius: 10px;
+}
+.calculator-display{
+padding: 25px 15px;
+width: 100%;
+text-align: center;
+overflow-x: auto;
+}
+.calculator-keypard{
+display: flex;
+width: 100%;
+
+}
+.keypard-numbers{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+
+}
+.keypard-button{
+width: 25%;
+pad: 15px 0;
+text-align: center;
+cursor: pointer;
+background-color: white;
+border: 1px solid rgb(48, 11, 148);
+
+}
+.keypard-button:hover {
+filter: brightness(35%);
+transition: filter .25s;
+
+}
+
+.keypad-button.large{
+width: 50%;
+}
+
+.keypard-button.dark{
+background-color: lightgrey;
+}
